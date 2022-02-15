@@ -46,7 +46,7 @@
     "es6",
     "browser"
   ],
-  "author": "tech-shopopop <tech@shopopop.com>",
+  "author": "tech <tech@example.com>",
   "license": "ISC",
   "simple-git-hooks": {
     "pre-commit": "npx commitlint --edit $1 & npm run lint",
