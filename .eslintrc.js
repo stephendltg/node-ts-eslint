@@ -211,7 +211,7 @@ module.exports = {
     "no-return-assign": "off",
     "operator-linebreak": ["error", "before"],
 
-    // shopopop-practice
+    // Others
     "radix": "error",
     "max-len": ["error", { code: 120, ignoreUrls: true, ignoreComments: true, ignoreRegExpLiterals: true }],
     "max-lines": ["error", 1000],
