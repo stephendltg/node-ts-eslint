@@ -30,6 +30,18 @@ npm i --production
 npm start
 ```
 
+## CLI
+
+```bash
+npm install --global .
+```
+
+**launch:**
+
+```bash
+node-www
+```
+
 ## Docs
 
 ### Summary
