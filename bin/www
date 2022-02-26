@@ -1,5 +1,5 @@
-#!/usr/bin/env ts-node
+#!/usr/bin/env node
 
 "use strict";
 
-import "../src";
+require('../dist/index.js');
