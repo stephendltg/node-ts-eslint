@@ -28,6 +28,7 @@
     "start": "ts-node src/index.ts",
     "test": "jest --reporters=default",
     "build": "tsc --build",
+    "prepare": "npm run build",
     "version": "npm run build",
     "prepublishOnly": "npm run build",
     "clean": "rimraf dist",
@@ -38,6 +39,9 @@
     "prerelease": "standard-version -- --prerelease",
     "fix": "standard-version -- --release-as minor",
     "doc": "rimraf docs && npx typedoc src/index.ts"
+  },
+  "bin": {
+    "node-www": "./bin/www"
   },
   "keywords": [
     "eslint",
