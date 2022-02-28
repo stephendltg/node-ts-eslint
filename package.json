@@ -1,5 +1,5 @@
 {
-  "name": "node-typescript-template-eslint",
+  "name": "node-typescript-template",
   "version": "1.2.1",
   "description": "template typescript nodejs with es-lint",
   "main": "dist/index.js",
