@@ -86,3 +86,12 @@ node-www
 - [thunder client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
 - [git lens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 - [Edit csv](https://marketplace.visualstudio.com/items?itemName=janisdd.vscode-edit-csv)
+
+### Package maintenance
+
+A modern cli tool that keeps your deps fresh
+
+```bash
+npx taze
+```
+
